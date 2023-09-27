@@ -1,1 +1,100 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.content {
+  height: 500px;
+  width: 900px;
+  padding: 50px;
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(71, 22, 187);
+  background: linear-gradient(0deg, rgba(71, 22, 187, 0.4655112045) 0%, rgba(211, 101, 114, 0.7652310924) 14%, rgba(84, 53, 188, 0.7288165266) 94%);
+}
+.content .icons__item {
+  font-size: 45px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+.timer__head {
+  width: 700px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.timer__title {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  word-spacing: 10px;
+}
+.timer__body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.timer__body .timer__dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 45px;
+  height: 50px;
+}
+.timer__body .timer__dots .dot {
+  height: 7px;
+  width: 7px;
+  display: block;
+  background-color: #fff;
+}
+.timer__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 170px;
+}
+.timer__item .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.timer__item .numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-size: 75px;
+  width: 215px;
+}/*# sourceMappingURL=styles.css.map */
