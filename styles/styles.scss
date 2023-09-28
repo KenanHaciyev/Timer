@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-	height: 500px;
+	height: 530px;
 	width: 900px;
 	padding: 50px;
 	border: 1px solid black;
@@ -37,10 +37,45 @@ body {
 	);
 
 	.icons {
+		margin-bottom: 20px;
 		&__item {
 			font-size: 45px;
-			cursor: pointer;
 			margin: 0 5px;
+			cursor: pointer;
+		}
+
+		.pause {
+			display: none;
+		}
+	}
+
+	.set-time {
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+
+		.hours {
+			height: 40px;
+			width: 120px;
+			padding: 3px 10px;
+			outline: none;
+			border: none;
+			border-radius: 5px;
+			font-size: 20px;
+			text-align: center;
+			margin-right: 5px;
+		}
+
+		.set-btn {
+			width: 60px;
+			height: 35px;
+			margin-left: 5px;
+			color: #fff;
+			cursor: pointer;
+			background-color: rgb(175, 155, 222);
+			border: 1px solid rgb(122, 98, 177);
+			border-radius: 6px;
 		}
 	}
 }
@@ -68,7 +103,7 @@ body {
 		@include flex(space-around);
 		width: 800px;
 		height: 200px;
-		margin-bottom: 15px;
+		margin-bottom: 5px;
 
 		.timer__dots {
 			@include flex(space-between);
@@ -105,4 +140,18 @@ body {
 			width: 215px;
 		}
 	}
+}
+
+.warn {
+	background-color: #f8d7da;
+	color: #721c24;
+	padding: 8px 12px;
+	border: 1px solid #f5c6cb;
+	border-radius: 8px;
+	margin-top: 10px;
+	font-size: 17px;
+	font-weight: 600;
+	text-align: center;
+	display: inline;
+	width: 450px;
 }

@@ -1,0 +1,9 @@
+export const hoursInput = document.querySelector('.hours');
+export const setTimeBlog = document.querySelector('.set-time');
+export const setBtn = document.querySelector('.set-btn');
+export const content = document.querySelector('.content');
+export const boxes = document.querySelectorAll('.box');
+export const pause = document.querySelector('.pause');
+export const play = document.querySelector('.play');
+export const stop = document.querySelector('.stop');
+export const staticTime = 60;

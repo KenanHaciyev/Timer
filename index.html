@@ -23,8 +23,8 @@
 						<div class="timer__body">
 							<div class="timer__item">
 								<div class="timer__hours numbers">
-									<div class="timer__hours-left box">0</div>
-									<div class="timer__hours-right box">1</div>
+									<div class="box">5</div>
+									<div class="box">9</div>
 								</div>
 								<p>HOURS</p>
 							</div>
@@ -34,8 +34,8 @@
 							</div>
 							<div class="timer__item">
 								<div class="timer__minutes numbers">
-									<div class="timer__minutes-left box">2</div>
-									<div class="timer__minutes-right box">4</div>
+									<div class="box">5</div>
+									<div class="box">9</div>
 								</div>
 								<p>MINUTES</p>
 							</div>
@@ -45,8 +45,8 @@
 							</div>
 							<div class="timer__item">
 								<div class="timer__seconds numbers">
-									<div class="timer__seconds-left box">3</div>
-									<div class="timer__seconds-right box">4</div>
+									<div class="box">5</div>
+									<div class="box">9</div>
 								</div>
 								<p>SECONDS</p>
 							</div>
@@ -55,12 +55,17 @@
 
 					<div class="icons">
 						<i class="fa-solid fa-circle-play icons__item play"></i>
-						<!-- <i class="fa-solid fa-pause icons__item pause"></i> -->
+						<i class="fa-solid fa-circle-pause icons__item pause"></i>
 						<i class="fa-solid fa-circle-stop icons__item stop"></i>
+					</div>
+
+					<div class="set-time">
+						<input class="hours" placeholder="Set time" type="number" />
+						<button class="set-btn">Set</button>
 					</div>
 				</div>
 			</section>
 		</main>
-		<script src="./scripts.js"></script>
+		<script type="module" src="./scripts.js"></script>
 	</body>
 </html>
